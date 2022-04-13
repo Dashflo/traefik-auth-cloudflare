@@ -1,4 +1,4 @@
-module github.com/ciffelia/traefik-auth-cloudflare
+module https://github.com/Dashflo/traefik-auth-cloudflare
 
 go 1.18
 
