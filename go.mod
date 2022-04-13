@@ -1,6 +1,6 @@
 module github.com/ciffelia/traefik-auth-cloudflare
 
-go 1.15
+go 1.18
 
 require (
 	github.com/coreos/go-oidc v2.2.1+incompatible
