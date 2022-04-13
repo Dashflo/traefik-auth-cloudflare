@@ -127,6 +127,7 @@ func authHandler(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 
 	// Request is good to go
 	w.Header().Set("X-Auth-User", user)
+	w.Header().Set("X-Forwarded-User", user)
 	write(w, http.StatusOK, "OK!")
 
 }
