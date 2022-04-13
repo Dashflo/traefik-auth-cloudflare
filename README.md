@@ -2,7 +2,7 @@
 
 Forward auth server to verify Cloudflare Access JWT tokens with traefik
 
-[![GitHub release](https://img.shields.io/github/v/release/adrienkohlbecker/traefik-auth-cloudflare)](https://github.com/adrienkohlbecker/traefik-auth-cloudflare/releases/latest) [![docker hub](https://img.shields.io/docker/pulls/ghcr.io/dashflo/traefik-auth-cloudflare:master)](https://hub.docker.com/r/ghcr.io/dashflo/traefik-auth-cloudflare:master)
+[![GitHub release](https://img.shields.io/github/v/release/adrienkohlbecker/traefik-auth-cloudflare)](https://github.com/adrienkohlbecker/traefik-auth-cloudflare/releases/latest) [![docker hub](https://img.shields.io/docker/pulls/ghcr.io/dashflo/traefik-auth-cloudflare:latest)](https://hub.docker.com/r/ghcr.io/dashflo/traefik-auth-cloudflare:latest)
 
 ## Description
 
@@ -30,7 +30,7 @@ $ docker network create traefik-auth
 # start traefik-auth-cloudflare (default port is 8080)
 # you need to set the auth domain you configured on cloudflare
 
-$ docker run -d --network traefik-auth --name traefik-auth-cloudflare ghcr.io/dashflo/traefik-auth-cloudflare:master --auth-domain https://foo.cloudflareaccess.com
+$ docker run -d --network traefik-auth --name traefik-auth-cloudflare ghcr.io/dashflo/traefik-auth-cloudflare:latest --auth-domain https://foo.cloudflareaccess.com
 
 # add traefik to your `traefik-auth` docker network (left to the reader)
 

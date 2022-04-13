@@ -16,7 +16,7 @@ services:
     container_name: traefik
 
   traefik-auth-cloudflare:
-    image: ghcr.io/dashflo/traefik-auth-cloudflare:master
+    image: ghcr.io/dashflo/traefik-auth-cloudflare:latest
     restart: always
     expose:
       - 8080
