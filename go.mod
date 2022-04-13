@@ -1,6 +1,6 @@
-module https://github.com/Dashflo/traefik-auth-cloudflare
+module github.com/Dashflo/traefik-auth-cloudflare
 
-go 1.18
+go 1.15
 
 require (
 	github.com/coreos/go-oidc v2.2.1+incompatible
