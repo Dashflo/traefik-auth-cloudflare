@@ -2,7 +2,7 @@
 
 Forward auth server to verify Cloudflare Access JWT tokens with traefik
 
-[![GitHub release](https://img.shields.io/github/v/release/adrienkohlbecker/traefik-auth-cloudflare)](https://github.com/adrienkohlbecker/traefik-auth-cloudflare/releases/latest) [![docker hub](https://img.shields.io/docker/pulls/ghcr.io/dashflo/traefik-auth-cloudflare:latest)](https://hub.docker.com/r/ghcr.io/dashflo/traefik-auth-cloudflare:latest)
+[![GitHub release](https://img.shields.io/github/v/release/Dashflo/traefik-auth-cloudflare)](https://github.com/Dashflo/traefik-auth-cloudflare/releases/latest)
 
 ## Description
 
